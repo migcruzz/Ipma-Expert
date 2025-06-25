@@ -36,10 +36,10 @@ ollama pull mistral:latest
 
 ### **3. Clone the IPMA Expert Repository**
 
-Clone the project repository from GitHub (replace `<repo-url>` with the actual URL):
+Clone the project repository from GitHub (replace `https://github.com/migcruzz/Ipma-Expert.git` with the actual URL):
 
 ```sh
-git clone <repo-url> ipma-expert
+git clone https://github.com/migcruzz/Ipma-Expert.git ipma-expert
 cd ipma-expert
 ```
 
@@ -78,13 +78,13 @@ python main.py
 | :-- | :-- | :-- |
 | 1 | Install Ollama | `brew install ollama` / `curl ...` / Download |
 | 2 | Pull mistral:latest model | `ollama pull mistral:latest` |
-| 3 | Clone repository | `git clone <repo-url> ipma-expert` |
+| 3 | Clone repository | `git clone https://github.com/migcruzz/Ipma-Expert.git ipma-expert` |
 | 4 | Create \& activate virtual environment (venv) | `python3 -m venv venv` + `source venv/bin/activate` |
 | 5 | Install dependencies | `pip install -r requirements.txt` |
 | 6 | Run the project | `python main.py` |
 
 > **Note:**
-> Replace `<repo-url>` and `main.py` with the actual repository URL and entry point script if they differ in your project.
+> Replace `https://github.com/migcruzz/Ipma-Expert.git` and `main.py` with the actual repository URL and entry point script if they differ in your project.
 
 Your **IPMA Expert** environment is now ready!
 
