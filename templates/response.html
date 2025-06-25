@@ -1,0 +1,38 @@
+<!-- templates/response.html -->
+<div class="message user">{{ user_message }}</div>
+
+<div class="message bot">
+    <div class="bot-text">
+        <p>{{ resposta }}</p>
+    </div>
+
+    <div class="bot-map">
+        {% if map_html %}
+        {{ map_html | safe }}
+
+
+        {% endif %}
+    </div>
+
+    <div class="bot-chart">
+        {% if grafico_html %}
+        {{ grafico_html | safe }}
+
+
+        {% endif %}
+    </div>
+
+    <div class="bot-metrics">
+        {% if plot_list %}
+        <h4>Gráficos por cidade:</h4>
+        {% for item in plot_list %}
+        <div class="metric-item">
+            <strong>{{ item.local }}</strong>
+            {{ item.html | safe }}
+        </div>
+        {% endfor %}
+
+        {% endif %}
+
+    </div>
+</div>

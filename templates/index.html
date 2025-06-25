@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Assistente Meteorológico</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+
+
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+
+</head>
+<body>
+<main>
+    <h1>Previsão do Tempo com Mistral</h1>
+    <div id="chat" class="chat-container"></div>
+    <form
+            hx-post="/chat"
+            hx-target="#chat"
+            hx-swap="beforeend"
+            class="formulario"
+    >
+        <input type="text" name="mensagem"
+               placeholder="Ex: Lisboa com gráfico e mapa" required>
+        <button type="submit">➤</button>
+    </form>
+</main>
+</body>
+</html>
