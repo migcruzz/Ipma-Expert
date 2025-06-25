@@ -17,6 +17,7 @@
     box-sizing: border-box;
     white-space: pre-line;
     width: 100%;
+    height: fit-content;
 }
 
 
