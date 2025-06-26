@@ -68,6 +68,7 @@ pip install -r requirements.txt
 Start the project (replace with the actual run command if different):
 
 ```sh
+cd app
 python main.py
 ```
 
