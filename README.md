@@ -74,7 +74,7 @@ python main.py
 
 ### **7. Copy the URL in Console**
 
-Copy the localhost URL shown in the console and ask any meteorological question about a Portuguese district capital.
+Copy the localhost URL shown in the console, paste in any web browser and ask any meteorological question about a Portuguese district capital.
 
 ### **Summary Table**
 
