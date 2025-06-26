@@ -53,8 +53,8 @@ nltk==3.9.1
 openai==1.17.1
 opencv-python==4.9.0.80
 pdftopng==0.2.4
-pip==24.2
-plotly==6.0.0
+pip~=25.1.1
+plotly~=6.1.2
 pycurl==7.45.3
 pydocstyle==6.3.0
 PyMuPDF==1.24.1
@@ -87,6 +87,10 @@ watchfiles==0.21.0
 webcolors==24.11.1
 websockets==12.0
 whatthepatch==1.0.2
-wheel==0.44.0
+wheel~=0.45.1
 xlwings==0.32.1
 yapf==0.40.2
+
+aiohttp~=3.12.13
+Quart~=0.20.0
+attrs~=25.3.0
