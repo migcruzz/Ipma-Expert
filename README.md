@@ -83,8 +83,5 @@ python main.py
 | 5 | Install dependencies | `pip install -r requirements.txt` |
 | 6 | Run the project | `python main.py` |
 
-> **Note:**
-> Replace `https://github.com/migcruzz/Ipma-Expert.git` and `main.py` with the actual repository URL and entry point script if they differ in your project.
-
 Your **IPMA Expert** environment is now ready!
 
